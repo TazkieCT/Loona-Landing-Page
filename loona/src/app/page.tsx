@@ -1,10 +1,13 @@
 export default function Home() {
   return (
     <div className="flex flex-col items-center justify-items-center min-h-screen font-[family-name:var(--font-geist-sans)]">
+      <div className="text-black bg-[#D295FF] p-1 text-sm font-medium w-full flex items-center justify-center px-4">
+        <a href=""className="flex items-center gap-1">We are happy to announce Loona for <img src="/apple.1d07924616a362d2ca8211ac50b73c32.svg" className="inline-block w-2" /> Vision Pro</a>
+      </div>
       <div className="text-2xl text-center">
         <h1 className="text-4xl font-bold">Loona</h1>
       </div>
-     
+      
       <footer className="w-full text-sm text-white bg-[#1a1321]">
         <div className="mx-auto grid mt-[60px] mb-[110px] grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 max-w-[800px] justify-items-center">
           <span className="">
