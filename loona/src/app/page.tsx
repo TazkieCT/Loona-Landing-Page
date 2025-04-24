@@ -1,21 +1,28 @@
 export default function Home() {
   return (
-    <div className="flex flex-col items-center justify-items-center min-h-screen font-[family-name:var(--font-geist-sans)]">
-      <div className="text-black bg-[#D295FF] p-1 text-sm font-medium w-full flex items-center justify-center px-4">
-        <a href=""className="flex items-center gap-1">We are happy to announce Loóna for <img src="/apple.1d07924616a362d2ca8211ac50b73c32.svg" className="inline-block w-2" /> Vision Pro</a>
+    <div className="flex flex-col items-center justify-items-center min-h-screen">
+      <div className="text-black bg-[#D295FF] p-[5px] w-full flex items-center justify-center px-4">
+        <a href=""className="flex items-center gap-1 banner-announce">We are happy to announce Loóna for <img src="/apple.1d07924616a362d2ca8211ac50b73c32.svg" className="inline-block w-2" /> Vision Pro</a>
       </div>
-      <header>
-        <img src="/logo_loona.40e6cac69c0e50021a456dd44f6d6243.svg" className="inline-block" />
-        <div className="">
-          <div className=""></div> {/* topShadowGradient */}
-          <video src="video.97acaa48e0dc5754e258.mp4"></video>
-          <div className=""></div> {/* botShadowGradient */}
+
+      <header className="hero-header">
+        <img src="/logo_loona.40e6cac69c0e50021a456dd44f6d6243.svg" className="logo" />
+        <div className="background">
+          <div className="top-shadow-gradient"></div> {/* topShadowGradient */}
+          <video src="video.97acaa48e0dc5754e258.mp4" autoPlay loop playsInline/>
+          <div className="bottom-shadow-gradient"></div> {/* botShadowGradient */}
         </div>
         
-        <div className="text-2xl text-center">
+        <div className="hero-title">
+          Say goodnight to racing thoughts <span className="slip">and drift off to sleep</span>
         </div>
-        <div className=""></div>
-        <button></button>
+        <div className="hero-desc">
+          An award-winning app designed to gently occupy your mind with soothing interactive content, shedding the worries of today and setting you up for a serene tomorrow.
+        </div>
+        <button className="button">
+          <div className="overlay"></div>
+          Try for free
+        </button>
       </header>
       
       <footer className="w-full text-sm font-semibold text-white bg-[#1a1321]">
