@@ -9,7 +9,7 @@ export default function Home() {
         <img src="/logo_loona.40e6cac69c0e50021a456dd44f6d6243.svg" className="logo" />
         <div className="background">
           <div className="top-shadow-gradient"></div> {/* topShadowGradient */}
-          <video src="video.97acaa48e0dc5754e258.mp4" autoPlay loop playsInline/>
+          <video src="video.97acaa48e0dc5754e258.mp4" autoPlay loop playsInline muted/>
           <div className="bottom-shadow-gradient"></div> {/* botShadowGradient */}
         </div>
         
