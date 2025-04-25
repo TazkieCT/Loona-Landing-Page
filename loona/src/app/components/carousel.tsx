@@ -4,6 +4,8 @@ export default function Carousel() {
     return (
         <div className="container">
             <div className="wrapper">
+                <div className="left-shadow-gradient"></div> 
+                <div className="right-shadow-gradient"></div> 
                 <div className="content">
                     <a href="" className="logo-partner"><img src="/google.fdd7b6714789643014b13eb0568ced9d.svg" alt="" /></a>
                     <a href="" className="logo-partner"><img src="/apple_award.aa398def8fbec5d3ade98a9bb2fef6c7.svg" alt="" /></a>
