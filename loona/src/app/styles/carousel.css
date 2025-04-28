@@ -23,7 +23,7 @@
     display: inline-block;
     white-space: nowrap;
     /* overflow: hidden; */
-    animation: slider 60s linear .1s infinite;
+    animation: slider 45s linear .1s infinite;
 }
 
 .logo-partner {
