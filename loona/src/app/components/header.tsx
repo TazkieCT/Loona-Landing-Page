@@ -16,7 +16,7 @@ export default function Header() {
             <div className="hero-desc">
                 An award-winning app designed to gently occupy your mind with soothing interactive content, shedding the worries of today and setting you up for a serene tomorrow.
             </div>
-            <button className="button">
+            <button className="hero-button">
                 <div className="overlay"></div>
                 Try for free
             </button>
