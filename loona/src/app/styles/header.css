@@ -80,6 +80,7 @@
   text-align: center;
   z-index: 4;
   color: white;
+  cursor: pointer;
 }
 
 .hero-desc {

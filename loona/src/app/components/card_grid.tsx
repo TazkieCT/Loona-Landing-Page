@@ -1,4 +1,4 @@
-import "./../styles/cardgrid.css";
+import "./../styles/card_grid.css";
 
 export default function CardGrid() {
     return (
