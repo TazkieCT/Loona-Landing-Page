@@ -79,3 +79,7 @@ span.slip-2 {
 span.slip-3 {
   color: #FFC0D3;
 }
+
+span.accent {
+  font-weight: 700;
+}
