@@ -45,7 +45,7 @@
 
 body {
   background: var(--background);
-  color: var(--foreground);
+  color: white;
   font-family: 'Euclid Circular A', Arial, Helvetica, sans-serif;
   background-color: #090110;
 }
@@ -68,3 +68,14 @@ body {
   z-index: 4;
 }
 
+span.slip {
+  color: #d295ff;
+}
+
+span.slip-2 {
+  color: #91C1F2;
+}
+
+span.slip-3 {
+  color: #FFC0D3;
+}

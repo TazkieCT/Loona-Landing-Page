@@ -1,3 +1,4 @@
+import CardGrid from "./components/cardgrid";
 import Carousel from "./components/carousel";
 import Footer from "./components/footer";
 import Header from "./components/header";
@@ -12,6 +13,8 @@ export default function Home() {
       <Header/>
 
       <Carousel/>
+
+      <CardGrid/>
       
       <Footer/>
     </div>
