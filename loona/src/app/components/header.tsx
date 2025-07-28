@@ -11,7 +11,7 @@ export default function Header() {
             </div>
             
             <div className="hero-title">
-                Say goodnight to racing thoughts +
+                Say goodnight to racing thoughts <span className="slip">and drift off to sleep</span>
             </div>
             <div className="hero-desc">
                 An award-winning app designed to gently occupy your mind with soothing interactive content, shedding the worries of today and setting you up for a serene tomorrow.
