@@ -3,7 +3,7 @@
     100% { transform: translateX(-50%); }
 }
 
-.grid {
+.card-grid {
     box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(2, 1fr);

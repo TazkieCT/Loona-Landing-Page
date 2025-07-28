@@ -2,7 +2,7 @@ import "./../styles/cardgrid.css";
 
 export default function CardGrid() {
     return (
-            <div className="grid">
+            <div className="card-grid">
                 <div className="card">
                     <img src="/anxiety_bg.da8b8bd783d8dc64d88e.png" className="background-card" alt="Card 1" />
                     <div className="content-card">
