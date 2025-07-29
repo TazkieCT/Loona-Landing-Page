@@ -14,12 +14,20 @@ export default function MultiCarousel() {
     ];
 
     return (
-        <div className="container">
+        <div className="container-multi-carousel">
             <div className="title">Content so good <span className="slip">it will put you to sleep</span></div>
             <button className="button">
                 Try for free
             </button>
             <div className="multi-carousel">
+                <ul className="multi-carousel-track">
+                    <li className="multi-carousel-track-item">
+                        <div className="multi-carousel-card">
+                            <img src="/sleepscapes_content.7f66ddcb64fc4d23a518.png" alt="Escapes" className="multi-carousel-card-background" />
+                            <div className="multi-carousel-card-text">Escapes</div>
+                        </div>
+                    </li>
+                </ul>
                 <ul className="multi-carousel-list">
                     {listItems.map((item, index) => (
                         <li
@@ -30,14 +38,6 @@ export default function MultiCarousel() {
                             {item}
                         </li>
                     ))}
-                </ul>
-                <ul className="multi-carousel-track">
-                    <li className="multi-carousel-track-item">
-                        <div className="multi-carousel-card">
-                            <img src="/sleepscapes_content.7f66ddcb64fc4d23a518.png" alt="Escapes" className="multi-carousel-card-background" />
-                            <div className="multi-carousel-card-text">Escapes</div>
-                        </div>
-                    </li>
                 </ul>
             </div>
         </div>
