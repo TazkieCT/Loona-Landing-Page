@@ -17,7 +17,7 @@ export default function Home() {
 
       <CardGrid/>
 
-      <MultiCarousel/>
+      {/* <MultiCarousel/> */}
 
       <Footer/>
     </div>
