@@ -43,16 +43,21 @@
 }
 
 .faq-answer {
-    max-height: 0;
+    display: grid;
+    grid-template-rows: 0fr;
     overflow: hidden;
-    margin-left: 45px;
-    margin-right: 30px;
-    text-align: left;
-    transition: max-height 0.6s ease;
+    transition: grid-template-rows 0.6s ease;
 }
 
 .faq-toggle:checked ~ .faq-answer {
-    max-height: 200px;
+    grid-template-rows: 1fr;
+}
+
+.faq-answer > div {
+    min-height: 0;
+    margin-left: 45px;
+    margin-right: 30px;
+    text-align: left;
 }
 
 .faq-answer a {
