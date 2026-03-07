@@ -51,3 +51,20 @@
     background: linear-gradient(270deg, #090110 0, rgba(9, 1, 16, 0));
     z-index: 3;
 }
+
+/* Mobile */
+@media (max-width: 768px) {
+    .container {
+        margin: 40px 0;
+    }
+    
+    .logo-partner {
+        padding: 0 15px;
+        max-width: 120px;
+    }
+    
+    .left-shadow-gradient,
+    .right-shadow-gradient {
+        width: 15%;
+    }
+}
