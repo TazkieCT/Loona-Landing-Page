@@ -85,6 +85,14 @@ span.accent {
   font-weight: 700;
 }
 
+span.accent.white {
+  color: white;
+}
+
+.white {
+  color: white;
+}
+
 .button {
     background: white;
     color: black;

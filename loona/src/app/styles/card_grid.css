@@ -58,7 +58,7 @@
 
 .top-gradient {
     background: linear-gradient(180deg,rgba(9,1,16,0),rgba(9,1,16,.009) 6.67%,rgba(9,1,16,.036) 13.33%,rgba(9,1,16,.082) 20%,rgba(9,1,16,.147) 26.67%,rgba(9,1,16,.232) 33.33%,rgba(9,1,16,.332) 40%,rgba(9,1,16,.443) 46.67%,rgba(9,1,16,.557) 53.33%,rgba(9,1,16,.668) 60%,rgba(9,1,16,.768) 66.67%,rgba(9,1,16,.853) 73.33%,rgba(9,1,16,.918) 80%,rgba(9,1,16,.964) 86.67%,rgba(9,1,16,.991) 93.33%,#090110);
-    height: 50%;
+    height: 20%;
     width: 100%;
     position: absolute;
     transform: matrix(1,0,0,-1,0,0);
@@ -101,7 +101,7 @@
     color: #000;
 }
 
-.title {
+.title-card-grid-2 {
     font-size: 40px;
     font-weight: 600;
     line-height: 51px;
@@ -125,20 +125,21 @@
 .button-title {
     background: hsla(0,0%,100%,.15);
     cursor: pointer;
-    height: 60px;
     position: relative;
     width: 240px;
+    height: 60px;
     z-index: 3;
     border-radius: 50px;
-    color: #fff;
-    display: inline-block;
-    font-size: 16px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 1rem;
     font-weight: 600;
-    height: 52px;
+    line-height: 1rem;
     margin: 10px 0;
     max-width: 500px;
     outline: none;
-    text-align: center;
     text-decoration: none;
 }
 

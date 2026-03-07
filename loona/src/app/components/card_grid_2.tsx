@@ -5,14 +5,14 @@ export default function CardGrid2() {
         <div className="card-2-layout">
             <div className="top-gradient"></div>
             <div className="background-card-2"></div>
-            <div className="title">
+            <div className="title-card-grid-2">
                 Backed by science-based <span className="slip">relaxation techniques</span>
             </div>
-            {/* <button className="button-title">Science Evidence
+            <button className="button-title">Science Evidence
                 <svg xmlns="http://www.w3.org/2000/svg" width="6" height="10" viewBox="0 0 6 10" fill="none">
-                    <path d="M0.749857 1.24996L4.49971 4.99976L0.749857 8.74955" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M0.749857 1.24996L4.49971 4.99976L0.749857 8.74955" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"></path>
                 </svg>
-            </button> */}
+            </button>
             <div className="card-grid-2">
                 <div className="card">
                     <img src="/card-doctor.png" className="background-card" alt="Card 1" />
