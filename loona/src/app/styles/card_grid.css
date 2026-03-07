@@ -252,14 +252,14 @@
 
     .card {
         max-width: 360px;
-        max-height: 500px;
+        max-height: 468px;
         width: 100%;
     }
 
     .card-row {
         max-width: 360px;
-        max-height: 500px;
-        height: 500px;
+        max-height: 468px;
+        height: 468px;
         grid-column: 1;
         grid-row: auto;
         width: 100%;
