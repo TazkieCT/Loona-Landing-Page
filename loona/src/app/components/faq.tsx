@@ -1,9 +1,14 @@
-import "./../styles/faq.css";
+"use client";
 
-export default function FAQ() { 
+import "./../styles/faq.css";
+import { useScrollAnimation } from "../hooks/useScrollAnimation";
+
+export default function FAQ() {
+    const { elementRef: titleRef, isVisible: titleVisible } = useScrollAnimation();
+
     return (
         <div className="faq-container">
-            <div className="faq-title"><span className="slip">FAQ: Fairies</span> Answering Questions</div>
+            <div ref={titleRef} className={`faq-title scroll-animate ${titleVisible ? 'visible' : ''}`}><span className="slip">FAQ: Fairies</span> Answering Questions</div>
             <div className="faq-item">
                 <input type="checkbox" id="faq1" className="faq-toggle" />
                 <label htmlFor="faq1" className="faq-content">

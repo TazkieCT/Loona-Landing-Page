@@ -1,9 +1,17 @@
+"use client";
+
 import "./../styles/card_grid.css";
+import { useScrollAnimation } from "../hooks/useScrollAnimation";
 
 export default function CardGrid() {
+    const { elementRef: card1Ref, isVisible: card1Visible } = useScrollAnimation();
+    const { elementRef: card2Ref, isVisible: card2Visible } = useScrollAnimation();
+    const { elementRef: card3Ref, isVisible: card3Visible } = useScrollAnimation();
+    const { elementRef: card4Ref, isVisible: card4Visible } = useScrollAnimation();
+
     return (
             <div className="card-grid">
-                <div className="card">
+                <div ref={card1Ref} className={`card scroll-animate-card ${card1Visible ? 'visible' : ''}`}>
                     <img src="/anxiety_bg.da8b8bd783d8dc64d88e.png" className="background-card" alt="Card 1" />
                     <div className="content-card">
                         <h3 className="card-title">Relieve anxiety. <span className="slip">Interact with calming activities</span> to hold your focus just long enough to <span className="slip">quiet your racing thoughts.</span></h3>
@@ -11,7 +19,7 @@ export default function CardGrid() {
                         <img src="/anxiety_breadcrumb.8128210db9fba0187f47.png" className="image-card-1" alt="Card 1" />
                     </div>
                 </div>
-                <div className="card">
+                <div ref={card2Ref} className={`card scroll-animate-card scroll-animate-delay-1 ${card2Visible ? 'visible' : ''}`}>
                     <img src="/ease_into_sleep_bg.07379e4fb47ab47ed871.png" className="background-card" alt="Card 2" />
                     <div className="content-card">
                         <h3 className="card-title">Ease <span className="slip-2">into sleep</span></h3>
@@ -23,7 +31,7 @@ export default function CardGrid() {
                         <img src="/ease_into_sleep_phone.9ebc9b974f548258630d.png" className="image-card-2" alt="Card 2" />
                     </div>
                 </div>
-                <div className="card">
+                <div ref={card3Ref} className={`card scroll-animate-card scroll-animate-delay-2 ${card3Visible ? 'visible' : ''}`}>
                     <img src="/wake_up_bg.6ce07aec3bd2897222a5.png" className="background-card" alt="Card 3" />
                     <div className="content-card">
                         <h3 className="card-title"><span className="slip-3">Wake up</span> refreshed</h3>
@@ -35,7 +43,7 @@ export default function CardGrid() {
                         <img src="/wake_up_phone.2da7d98343c20d110c40.png" className="image-card-3" alt="Card 3" />
                     </div>
                 </div>
-                <div className="card">
+                <div ref={card4Ref} className={`card scroll-animate-card scroll-animate-delay-3 ${card4Visible ? 'visible' : ''}`}>
                     <img src="/perform_better_bg.34e22940b2c8b454c3b4.png" className="background-card" alt="Card 3" />
                     <div className="content-card">
                         <h3 className="card-title"><span className="slip">Perform</span> better</h3>

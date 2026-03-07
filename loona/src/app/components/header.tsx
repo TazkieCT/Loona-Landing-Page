@@ -1,19 +1,25 @@
+"use client";
+
 import "./../styles/header.css";
+import { useScrollAnimation } from "../hooks/useScrollAnimation";
 
 export default function Header() {
+    const { elementRef: titleRef, isVisible: titleVisible } = useScrollAnimation();
+    const { elementRef: descRef, isVisible: descVisible } = useScrollAnimation();
+
     return (
         <header className="hero-header">
             <img src="/logo_loona.40e6cac69c0e50021a456dd44f6d6243.svg" className="logo" />
             <div className="background">
-                <div className="top-shadow-gradient"></div> {/* topShadowGradient */}
+                <div className="top-shadow-gradient"></div>
                 <video src="video.97acaa48e0dc5754e258.mp4" autoPlay loop playsInline muted/>
-                <div className="bottom-shadow-gradient"></div> {/* botShadowGradient */}
+                <div className="bottom-shadow-gradient"></div>
             </div>
             
-            <div className="hero-title">
+            <div ref={titleRef} className={`hero-title scroll-animate ${titleVisible ? 'visible' : ''}`}>
                 Say goodnight to racing thoughts <span className="slip">and drift off to sleep</span>
             </div>
-            <div className="hero-desc">
+            <div ref={descRef} className={`hero-desc scroll-animate scroll-animate-delay-1 ${descVisible ? 'visible' : ''}`}>
                 An award-winning app designed to gently occupy your mind with soothing interactive content, shedding the worries of today and setting you up for a serene tomorrow.
             </div>
             <button className="hero-button">

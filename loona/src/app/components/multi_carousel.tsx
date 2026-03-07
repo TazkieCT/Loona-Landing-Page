@@ -2,9 +2,11 @@
 
 import { useState } from "react";
 import "./../styles/multi_carousel.css";
+import { useScrollAnimation } from "../hooks/useScrollAnimation";
 
 export default function MultiCarousel() {
     const [activeIndex, setActiveIndex] = useState(0);
+    const { elementRef: titleRef, isVisible: titleVisible } = useScrollAnimation();
 
     const listItems = [
         "Escapes",
@@ -15,7 +17,7 @@ export default function MultiCarousel() {
 
     return (
         <div className="container-multi-carousel">
-            <div className="title">Content so good <span className="slip">it will put you to sleep</span></div>
+            <div ref={titleRef} className={`title scroll-animate ${titleVisible ? 'visible' : ''}`}>Content so good <span className="slip">it will put you to sleep</span></div>
             <button className="button">
                 Try for free
             </button>
