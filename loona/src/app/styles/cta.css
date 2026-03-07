@@ -1,0 +1,49 @@
+.cta-container {
+    display: flex;
+    align-items: center;
+    flex: 1 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+}
+
+.background-pillow {
+  max-width: 1440px;
+  min-width: 1050px;
+  width: 100%;
+}
+
+.background-grass {
+  position: absolute;
+  z-index: -1;
+  bottom: -9%;
+  width: 100%;
+}
+
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.cta-title {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+}
+
+.cta-description {
+    color: hsla(0,0%,100%,.78);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: .4px;
+    line-height: 33px;
+    text-align: center;
+}

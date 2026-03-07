@@ -4,7 +4,8 @@ import Carousel from "./components/carousel";
 import Footer from "./components/footer";
 import Header from "./components/header";
 import FAQ from "./components/faq";
-// import MultiCarousel from "./components/multi_carousel";
+import CTA from "./components/cta";
+import MultiCarousel from "./components/multi_carousel";
 
 export default function Home() {
   return (
@@ -24,6 +25,8 @@ export default function Home() {
       <CardGrid2/>
 
       <FAQ/>
+
+      <CTA/>
 
       <Footer/>
     </div>
