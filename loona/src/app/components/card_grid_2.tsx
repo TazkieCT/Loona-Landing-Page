@@ -40,6 +40,14 @@ export default function CardGrid2() {
                         <img src="/art_activities_phone.png" className="image-card-2-2-art" alt="Card 2" />
                     </div>
                 </div>
+                <div className="card-row">
+                    <img src="/tree_bg.png" className="background-card" alt="Card 3" />
+                    <div className="content-card-abs">
+                        <h3 className="card-title-big">Guided imagery generates safety and nurturance <br/>
+                            <span className="slip">by reframing emotions to rebalance the nervous system.</span>
+                        </h3>
+                    </div>
+                </div>
                 <div className="card">
                     <img src="/breathing_practices_bg.png" className="background-card" alt="Card 3" />
                     <div className="content-card">

@@ -3,6 +3,7 @@ import CardGrid2 from "./components/card_grid_2";
 import Carousel from "./components/carousel";
 import Footer from "./components/footer";
 import Header from "./components/header";
+import FAQ from "./components/faq";
 // import MultiCarousel from "./components/multi_carousel";
 
 export default function Home() {
@@ -21,6 +22,8 @@ export default function Home() {
       {/* <MultiCarousel/> */}
       
       <CardGrid2/>
+
+      <FAQ/>
 
       <Footer/>
     </div>

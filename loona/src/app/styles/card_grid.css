@@ -43,6 +43,13 @@
     display: flex;
 }
 
+.card-row {
+    max-width: 1120px;
+    grid-column: 1/3;
+    grid-row: 2/4;
+    position: relative;
+}
+
 .background-card {
     width: 100%;
     max-width: 845px;
@@ -76,6 +83,15 @@
     height: 100%;
 }
 
+.content-card-abs {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    overflow: hidden;
+    height: 100%;
+    top: 0;
+}
+
 .text-dark {
     display: flex;
     flex-direction: column;
@@ -95,6 +111,15 @@
     letter-spacing: .2px;
     text-align: center;
     z-index: 2;
+}
+
+.card-title-big {
+    font-size: 54px;
+    line-height: 54px;
+    margin-top: 10px;
+    white-space: pre-wrap;
+    margin: 35px 35px 20px;
+    font-weight: 700;
 }
 
 .button-title {
