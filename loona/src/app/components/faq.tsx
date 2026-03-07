@@ -10,7 +10,7 @@ export default function FAQ() {
                     <div className="faq-question">What is Loóna?</div>
                     <svg className="faq-icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 50 50" fill="none">
                         <circle opacity="0.05" cx="25" cy="25" r="25" transform="rotate(90 25 25)" fill="white"></circle>
-                        <path d="M29.9998 23.9998L25 28.9995L20.0002 23.9998" stroke="white" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M29.9998 23.9998L25 28.9995L20.0002 23.9998" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
                     </svg>
                 </label>
                 <div className="faq-answer">
@@ -25,7 +25,7 @@ export default function FAQ() {
                     <div className="faq-question">What is an Escape?</div>
                     <svg className="faq-icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 50 50" fill="none">
                         <circle opacity="0.05" cx="25" cy="25" r="25" transform="rotate(90 25 25)" fill="white"></circle>
-                        <path d="M29.9998 23.9998L25 28.9995L20.0002 23.9998" stroke="white" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M29.9998 23.9998L25 28.9995L20.0002 23.9998" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
                     </svg>
                 </label>
                 <div className="faq-answer">
@@ -40,7 +40,7 @@ export default function FAQ() {
                     <div className="faq-question">Where is Loóna available?</div>
                     <svg className="faq-icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 50 50" fill="none">
                         <circle opacity="0.05" cx="25" cy="25" r="25" transform="rotate(90 25 25)" fill="white"></circle>
-                        <path d="M29.9998 23.9998L25 28.9995L20.0002 23.9998" stroke="white" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M29.9998 23.9998L25 28.9995L20.0002 23.9998" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
                     </svg>
                 </label>
                 <div className="faq-answer">
@@ -55,7 +55,7 @@ export default function FAQ() {
                     <div className="faq-question">Can I buy a gift card?</div>
                     <svg className="faq-icon" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 50 50" fill="none">
                         <circle opacity="0.05" cx="25" cy="25" r="25" transform="rotate(90 25 25)" fill="white"></circle>
-                        <path d="M29.9998 23.9998L25 28.9995L20.0002 23.9998" stroke="white" strokeWidth="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M29.9998 23.9998L25 28.9995L20.0002 23.9998" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"></path>
                     </svg>
                 </label>
                 <div className="faq-answer">

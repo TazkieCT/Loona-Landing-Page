@@ -13,8 +13,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Loona",
-  description: "Beautifully loona",
+  title: "Loóna - fall in love with sleep again",
+  description: "Loóna is an award-winning app that serves as a healthy wind-down ritual to put people's minds to bed. Loóna is known for its enchanting and immersive experiences called escapes.",
+  icons: {
+    icon: '/favicon.ico',
+  },
 };
 
 export default function RootLayout({
