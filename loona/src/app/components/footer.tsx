@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="w-full text-sm font-semibold text-white bg-[#1a1321] mt-24">
+        <footer className="w-full text-sm text-white bg-[#1a1321] mt-24">
         <div className="mx-auto grid mt-[60px] mb-[110px] grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 max-w-[800px] justify-items-center">
           <span className="">
             <div className="font-bold">Product</div>
