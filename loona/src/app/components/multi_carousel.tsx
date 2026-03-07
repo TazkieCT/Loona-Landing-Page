@@ -65,6 +65,50 @@ export default function MultiCarousel() {
                             </div>
                         </div>
                     </li>
+                    <li className="multi-carousel-track-item-mobile">
+                        <div className="multi-carousel-card">
+                            <div className="multi-carousel-card-content">
+                                <img src="/sleepscapes_content.mobile.png" alt="Escapes" className="multi-carousel-card-background" />
+                                <div className="multi-carousel-card-text">
+                                    <span className="accent white">Escapes </span>invite you to color a magical rotating diorama while being guided by marvelous narration to gently occupy your mind. 
+                                    <span className="accent white"> Disengage from solving all the world’s problems while in bed,</span> and slip into sleep instead. 
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li className="multi-carousel-track-item-mobile">
+                        <div className="multi-carousel-card">
+                            <div className="multi-carousel-card-content">
+                                <img src="/stories_content.mobile.png" alt="Escapes" className="multi-carousel-card-background" />
+                                <div className="multi-carousel-card-text">
+                                    <span className="accent white">Soothe the mind with unique sound design experiences. </span>Tailored music and sound effects for each tale take you on a 360-audio-encounter
+                                    <span className="accent white"> with the most compelling storytelling. </span> Unleash a sense of wonder and endless imagination.
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li className="multi-carousel-track-item-mobile">
+                        <div className="multi-carousel-card">
+                            <div className="multi-carousel-card-content">
+                                <img src="/music_content.mobile.png" alt="Escapes" className="multi-carousel-card-background" />
+                                <div className="multi-carousel-card-text">
+                                    Dive into <span className="accent white">a world of original music </span>created with the help of analog instrumentation. Loóna’s gallery of sublime natural sounds is 
+                                    <span className="accent white"> designed to alleviate anxiety, promote relaxation, and provide a bit of magic to your evening routine.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li className="multi-carousel-track-item-mobile">
+                        <div className="multi-carousel-card">
+                            <div className="multi-carousel-card-content">
+                                <img src="/episode_content.mobile.png" alt="Escapes" className="multi-carousel-card-background" />
+                                <div className="multi-carousel-card-text">
+                                    <span className="accent white">Inhale calm, and exhale worry </span>with Loóna breathing exercises. Designed to inspire resilience, 
+                                    <span className="accent white"> take a deep breath and lose yourself in this centering experience.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
                 <ul className="multi-carousel-list">
                     {listItems.map((item, index) => (

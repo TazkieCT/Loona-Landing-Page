@@ -57,10 +57,14 @@
     .container {
         margin: 40px 0;
     }
+
+    .content {
+        animation: slider 15s linear .1s infinite;
+    }
     
     .logo-partner {
         padding: 0 15px;
-        max-width: 120px;
+        max-width: 150px;
     }
     
     .left-shadow-gradient,
