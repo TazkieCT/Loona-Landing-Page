@@ -1,4 +1,5 @@
 import CardGrid from "./components/card_grid";
+import CardGrid2 from "./components/card_grid_2";
 import Carousel from "./components/carousel";
 import Footer from "./components/footer";
 import Header from "./components/header";
@@ -18,6 +19,8 @@ export default function Home() {
       <CardGrid/>
 
       {/* <MultiCarousel/> */}
+      
+      <CardGrid2/>
 
       <Footer/>
     </div>
